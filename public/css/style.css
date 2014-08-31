@@ -1,0 +1,388 @@
+@charset "UTF-8";
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden], template {
+  display: none; }
+
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+body {
+  margin: 0; }
+
+a {
+  background: transparent; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal; }
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; }
+
+button,
+input {
+  line-height: normal; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  padding: 0; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "EnigmaticRegular";
+  src: url("../fonts/Enigma__2-webfont.eot");
+  src: url("../fonts/Enigma__2-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Enigma__2-webfont.woff") format("woff"), url("../fonts/Enigma__2-webfont.ttf") format("truetype"), url("../fonts/Enigma__2-webfont.svg#EnigmaticRegular") format("svg"); }
+@font-face {
+  font-family: "EnigmaticItalc";
+  src: url("../fonts/Enigma_2i-webfont.eot");
+  src: url("../fonts/Enigma_2i-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Enigma_2i-webfont.woff") format("woff"), url("../fonts/Enigma_2i-webfont.ttf") format("truetype"), url("../fonts/Enigma_2i-webfont.svg#EnigmaticItalc") format("svg"); }
+@font-face {
+  font-family: "EnigmaticBold";
+  src: url("../fonts/EnigmaB_2-webfont.eot");
+  src: url("../fonts/EnigmaB_2-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/EnigmaB_2-webfont.woff") format("woff"), url("../fonts/EnigmaB_2-webfont.ttf") format("truetype"), url("../fonts/EnigmaB_2-webfont.svg#EnigmaticBold") format("svg"); }
+body {
+  -moz-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern=1";
+  -ms-font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  width: 980px;
+  background: #fff;
+  color: #656565;
+  margin: auto;
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  position: relative;
+  line-height: 24px; }
+
+a {
+  color: #387a94;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+  a:visited {
+    color: #6badc7; }
+  a:focus {
+    color: #6badc7; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.obsolete {
+  opacity: 0.6; }
+
+#left-column,
+#right-column {
+  display: table-cell;
+  vertical-align: top; }
+
+#left-column {
+  padding-top: 1.5em;
+  background: #6BADC7;
+  border-right: 30px solid #387a94;
+  width: 280px;
+  color: #fff;
+  padding-bottom: 60px; }
+  #left-column:after {
+    content: '';
+    width: 50px;
+    height: 220px;
+    position: absolute;
+    left: 280px;
+    top: -30px;
+    -webkit-transform: skew(0deg, -45deg);
+        -ms-transform: skew(0deg, -45deg);
+            transform: skew(0deg, -45deg);
+    background: #6BADC7; }
+  #left-column a {
+    color: inherit !important; }
+  #left-column #main-data {
+    margin-right: 2em;
+    text-align: right;
+    margin-top: 4.5em;
+    text-shadow: #0a8ea7 0 1px 1px; }
+    #left-column #main-data dt {
+      font-weight: bold; }
+    #left-column #main-data dd {
+      margin-bottom: 1.5em; }
+  #left-column #my-name {
+    font-size: 2.8125em;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: right;
+    text-shadow: #0a8ea7 0 2px 0;
+    line-height: 0.53333em;
+    margin: 0; }
+    #left-column #my-name:first-line {
+      font-size: 1.778em;
+      line-height: 1.2em; }
+
+#right-column {
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  padding-left: 4em; }
+  #right-column section {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #656565; }
+  #right-column h2 {
+    font-size: 3em;
+    font-family: "EnigmaticRegular", arial;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.5em;
+    text-shadow: #e2bfcc 0 2px 0;
+    word-spacing: -0.2em;
+    color: #703249;
+    text-transform: uppercase; }
+    #right-column h2 span {
+      display: inline-block;
+      font-size: 1.1875em;
+      line-height: 0.42em;
+      -webkit-transition-property: all;
+              transition-property: all;
+      -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease;
+              transition-timing-function: ease;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0); }
+    #right-column h2:hover span {
+      -webkit-transform: translate3d(0.4em, 0, 0);
+              transform: translate3d(0.4em, 0, 0); }
+  #right-column h3 {
+    font-size: 1.1875em;
+    font-weight: normal;
+    line-height: 3.78947em;
+    margin: 0; }
+  #right-column li {
+    margin-left: 0.8em; }
+    #right-column li:before {
+      content: '•';
+      margin-right: 0.3em;
+      margin-left: -0.9em; }
+    #right-column li li:before {
+      content: '›'; }
+
+#primary-skills-list {
+  display: table;
+  table-layout: fixed;
+  border-collapse: separate; }
+  #primary-skills-list dl {
+    display: table-row; }
+    #primary-skills-list dl dt, #primary-skills-list dl dd {
+      display: table-cell;
+      vertical-align: top; }
+    #primary-skills-list dl dt {
+      padding-right: 30px;
+      text-align: right; }
+    #primary-skills-list dl dd .bar {
+      display: inline-block;
+      width: 15em;
+      height: 0.5em;
+      overflow: hidden;
+      white-space: nowrap;
+      background: #703249;
+      background: -webkit-linear-gradient(left, #e2bfcc 0%, #703249 50%, #000000 100%);
+      background: linear-gradient(left, #e2bfcc 0%, #703249 50%, #000000 100%); }
+      #primary-skills-list dl dd .bar span {
+        display: inline-block;
+        position: relative;
+        white-space: nowrap;
+        overflow: hidden;
+        text-indent: 100%; }
+      #primary-skills-list dl dd .bar:after {
+        height: 101%;
+        width: 100%;
+        vertical-align: top;
+        content: '';
+        display: inline-block;
+        background: #dcdcdc; }
+
+#experience h4 {
+  font-weight: normal;
+  font-style: italic;
+  color: #989898; }
+  #experience h4 em {
+    font-weight: bold;
+    font-style: normal;
+    display: block; }
+#experience p, #experience ul {
+  margin-left: 1em; }
+
+blockquote {
+  font-style: italic;
+  margin-top: 100px; }
+  blockquote span {
+    white-space: nowrap; }
